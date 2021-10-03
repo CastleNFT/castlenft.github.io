@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+
+.fade-in-nav {
+  -webkit-animation: fade-in 1s cubic-bezier(0.39, 0.575, 0.565, 1) 1s both;
+  animation: fade-in 1s cubic-bezier(0.39, 0.575, 0.565, 1) 1s both;
+}
+
+.fade-in-logo {
+  -webkit-animation: fade-in 1.5s cubic-bezier(0.39, 0.575, 0.565, 1) 1.5s both;
+  animation: fade-in 1.5s cubic-bezier(0.39, 0.575, 0.565, 1) 1.5s both;
+}
+
+.fade-in-subtitle {
+  -webkit-animation: fade-in 2s cubic-bezier(0.39, 0.575, 0.565, 1) 2s both;
+  animation: fade-in 2s cubic-bezier(0.39, 0.575, 0.565, 1) 2s both;
+}
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

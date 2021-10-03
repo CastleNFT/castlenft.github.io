@@ -1,0 +1,24 @@
+{
+  "name": "castle-website",
+  "version": "0.0.1",
+  "description": "website for the castle nft project",
+  "main": "index.js",
+  "scripts": {
+    "css-compile": "tailwindcss -i ./styles/index.css -o ./public/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/puf17640/castle-website.git"
+  },
+  "author": "Julian Pufler",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/puf17640/castle-website/issues"
+  },
+  "homepage": "https://github.com/puf17640/castle-website#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.3.6",
+    "postcss": "^8.3.8",
+    "tailwindcss": "^2.2.16"
+  }
+}
